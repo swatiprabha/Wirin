@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnEnvironment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Environment"/>
+
+    <Button
+        android:id="@+id/btnTimeOfDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time of Day"/>
+
+    <Button
+        android:id="@+id/btnWeather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weather"/>
+
+    <Button
+        android:id="@+id/btnTraffic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Traffic"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Av"/>
+
+        <Button
+            android:id="@+id/btnAdas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adas"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="100dp"
+        android:text="Done"/>
+
+</LinearLayout>
